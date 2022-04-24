@@ -10,7 +10,7 @@
     background-attachment: fixed;
 }
 
-.overlay {
+.rank-overlay {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -19,7 +19,7 @@
     background-color: rgba(0,0,0,0.7);
 }
 
-.container {
+.rank-container {
     width: 90%;
     margin: auto;
 }
