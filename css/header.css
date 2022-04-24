@@ -1,0 +1,47 @@
+/* start header section */
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    background-color: #221F1F;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo img {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 35%;
+    float: left;
+}
+
+.nav-links {
+    width: 65%;
+    float: left;
+    text-align: right;
+}
+
+.nav-links ul > li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.nav-links a:hover {
+    color: #55ACEE;
+}
+
+/* End header section  */

@@ -1,0 +1,97 @@
+/* start team  */
+
+hr:nth-of-type(2) {
+    margin-top: 42%;
+    border: 0;
+    border-bottom: 2px dashed #6195ff;
+    outline: none;
+    width: 90%;
+}
+
+.team {
+    padding: 10px 0;
+    text-align: center;
+    background-color: #2FA4FF;
+}
+
+.team-container {
+    width: 90%;
+    margin: auto;
+}
+
+.team h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+    word-spacing: -12px;
+}
+
+.team > span {
+    display: block;
+    width: 80px;
+    height: 4px;
+    background-color: #564A4A;
+    margin: 3px auto 20px auto;
+    border-radius: 5px;
+}
+
+.member {
+    display: block;
+    float: left;
+    width: 30%;
+    background-color: #333c83eb;
+    padding: 17px 13px;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+
+.member img {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: 250px;
+}
+
+.contact-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.contact-links a{
+    display: block;
+    width: 40px;
+    height: 45px;
+    background-color: #7ba7ff;
+    color: #fff;
+    margin-left: auto;
+    font-size: 25px;
+    padding: 8px;
+    border-bottom: 1px solid #fff;
+    opacity: .8;
+}
+
+.contact-links a:hover {
+    opacity: 1;
+}
+
+.info h3 {
+    margin-top: 10px;
+}
+
+hr:nth-of-type(3) {
+    margin-top: 38%;
+    border: 0;
+    border-bottom: 2px dashed #6195ff;
+    outline: none;
+    width: 90%;
+}
+
+/* end of team  */

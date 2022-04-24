@@ -1,0 +1,133 @@
+.feature-container {
+    width: 90%;
+    margin: auto;
+}
+
+.feature-header {
+    text-align: center;
+    background-color: #e38a30;
+    padding: 20px 0;
+}
+
+.feature-header .feature-title {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    word-spacing: -5px;
+}
+
+.feature-header span {
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: #333;
+    margin: 3px auto 20px auto;
+    border-radius: 5px;
+}
+
+.feature-contents {
+    overflow: hidden;
+}
+
+.feature {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 20px;
+}
+
+.feature img {
+    width: 100%;
+    height: 200px;
+}
+
+.mg {
+    margin: 0 5%;
+}
+
+.feature .feature-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+}
+
+.feature-content .feature-info h3 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s, opacity .5s;
+    transition-delay: .4s;
+}
+
+.feature:hover .feature-content {
+    opacity: 1;
+    visibility: visible;
+}
+
+.feature-content .feature-info {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.feature-info span {
+    color: #6195ff;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    top: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s, opacity .5s;
+    transition-delay: 0;
+    font-weight: 700;
+}
+
+.feature-content a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #6196ff79;;
+    color: white;
+    position: relative;
+    top: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 1s, opacity .5s;
+    transition-delay: .6s;
+}
+
+.feature:hover .feature-info h3,
+.feature:hover .feature-content a,
+.feature:hover .feature-info span {
+    top: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.feature-content a:hover {
+    background-color: #6195ff;
+}
+
+
+.feature-content a i {
+    line-height: 38px;
+}

@@ -1,0 +1,138 @@
+/* start prices  */
+.prices {
+    background-color: #F24A72;
+    padding: 20px 0;
+}
+
+
+.prices h2 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.prices-container {
+    width: 90%;
+    margin: auto;    
+}
+
+hr {
+    margin-top: 35%;
+    border: 0;
+    border-bottom: 2px dashed #6195ff;
+    outline: none;
+    width: 90%;
+    margin:2px auto;
+}
+
+.prices > span {
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: #333C83;
+    margin: 3px auto 20px auto;
+    border-radius: 5px;
+}
+
+.one,
+.two,
+.three {
+    
+    float: left;
+    width: 30%;
+    padding: 30px 15px;
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0000000a;
+}
+
+.ltr {
+    position: relative;
+}
+
+.ltr::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #333;
+}
+
+.ltr:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.ltr:hover span,
+.ltr:hover .circle,
+.ltr:hover .pricing-list > li{
+    color: white;
+}
+
+.two {
+    margin: 0 5%;
+}
+
+.one span,
+.two span,
+.three span {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #6195ff;
+    font-weight: 700;
+}
+
+.one .circle,
+.two .circle,
+.three .circle {
+    width: 120px;
+    height: 120px;
+    padding: 12px 0;
+    margin: 20px auto;
+    border: 2px solid #ff7361;
+    border-radius: 50%;
+}
+
+.one h3,
+.two h3,
+.three h3 {
+    font-size: 55px;
+    color: #F30E5C;
+}
+
+.pricing-list {
+    list-style: none;
+}
+
+.pricing-list li {
+    line-height: 1.8;
+    color: #6195ff;
+    font-size: 18px;
+}
+
+.one button,
+.two button,
+.three button {
+    border: none;
+    padding: 10px;
+    background-color: #3B5998;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.one button:hover,
+.two button:hover,
+.three button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+/* end prices  */

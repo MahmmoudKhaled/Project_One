@@ -1,0 +1,78 @@
+/* start services section  */
+.services {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #395faf;
+    
+}
+
+.services span {
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: #e50e7bb8;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+}
+
+.services-container {
+    width: 90%;
+    margin: auto;
+    
+}
+
+.services > h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.section {
+    width: 30%;
+    float: left;
+    margin-bottom: 20px;
+    border: 1px solid rgb(0 0 0 / 15%);
+    border-radius: 5px;
+    padding: 30px 15px;
+    position: relative;
+    background-color: #0000000a;
+    
+}
+
+.section h2{
+    margin-left: 20px;
+}
+
+.section i {
+    position: absolute;
+    left: 10px;
+    top: 32px;
+    color: #6195ff;
+    font-size: 25px;
+}
+
+.section p {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+
+}
+
+.ltr:hover i,
+.ltr:hover h2,
+.ltr:hover p {
+    color: white;
+}
+
+/* .section:hover {
+    background-color:#333;
+    transition: .6s;
+    cursor: pointer;
+    color: white;
+    z-index: -2;
+} */
+
+.second {
+    margin: 0% 5%;
+}
+
+/* end of services */

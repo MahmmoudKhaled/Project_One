@@ -1,0 +1,36 @@
+/* start about me section */
+.about {
+    width: 90%;
+    margin: auto;
+    background: url(../images/cover.jpg) no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.about-content {
+    width: 50%;
+    height: 55%;
+    background-color: #fff;
+    float: right;
+    margin-top: 20px;
+    position: relative;
+    padding: 15px;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.about-content h2 {
+    margin-left: 28px;
+}
+
+p {
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+/* end of about  */
