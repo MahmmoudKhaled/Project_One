@@ -1,4 +1,4 @@
-.numbers {
+.rank {
     font-family: 'varela round' , sans-serif;
     margin: 0;
     padding: 0;
@@ -24,28 +24,28 @@
     margin: auto;
 }
 
-.numbers-items {
+.rank-items {
     overflow: hidden;
     padding-top: 120px;
 }
 
-.number-item {
+.rank-item {
     width: 25%;
     float: left;
     text-align: center;
 }
 
-.number-item .icon {
+.rank-item i {
     color: #6195ff;
     margin-bottom: 15px;
 }
 
-.number-item-title {
+.rank-item h3 {
     font-weight: bold;
     font-size: 30px;
     color: #fff;
 }
 
-.number-item-text {
+.rank-item span {
     color: #fff;
 }
